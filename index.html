@@ -1,0 +1,248 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Alex Ritt - Personal Website</title>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                max-width: 56.25em;
+                margin: 0 auto;
+                padding: 1.25em;
+                background-color: #f4f4f4;
+                color: #333;
+            }
+
+            h1,
+            h2 {
+                color: #2c5f2e;
+            }
+
+            table {
+                border-collapse: collapse;
+                width: 100%;
+                background-color: #fff;
+                border-radius: 0.5em;
+                overflow: hidden;
+                box-shadow: 0 0.125em 0.375em rgba(0, 0, 0, 0.1);
+            }
+
+            td,
+            th {
+                padding: 0.75em 1em;
+                border: 0.0625em solid #ddd;
+            }
+
+            th {
+                background-color: #2c5f2e;
+                color: white;
+                text-align: left;
+            }
+
+            tr:nth-child(even) {
+                background-color: #f9f9f9;
+            }
+
+            .profile-section {
+                display: flex;
+                align-items: center;
+                gap: 1.5em;
+                background-color: #fff;
+                padding: 1.5em;
+                border-radius: 0.5em;
+                box-shadow: 0 0.125em 0.375em rgba(0, 0, 0, 0.1);
+                margin-bottom: 1.5em;
+            }
+
+            .profile-section img {
+                border-radius: 50%;
+                border: 0.25em solid #2c5f2e;
+            }
+
+            section {
+                background-color: #fff;
+                padding: 1.25em 1.5em;
+                border-radius: 0.5em;
+                box-shadow: 0 0.125em 0.375em rgba(0, 0, 0, 0.1);
+                margin-bottom: 1.5em;
+            }
+
+            ul,
+            ol {
+                line-height: 1.9;
+            }
+
+            footer {
+                text-align: center;
+                color: #777;
+                font-size: 0.9em;
+                margin-top: 2.5em;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Alex Ritt</h1>
+
+        <!-- Profile section with intro table and photo -->
+        <div class="profile-section">
+            <img
+                src="https://picsum.photos/150"
+                alt="Profile photo of Alex Ritt"
+                width="150"
+                height="150"
+            />
+            <div>
+                <p><strong>University of Wisconsin - Green Bay</strong></p>
+                <p>
+                    Majors: Business Administration &bull; Software Engineering
+                    &bull; Human Biology
+                </p>
+                <p>Student</p>
+                <p>
+                    GitHub:
+                    <a href="https://github.com/AR0106" target="_blank"
+                        >AR0106</a
+                    >
+                    &bull; LinkedIn:
+                    <a href="https://linkedin.com/in/alex-ritt" target="_blank"
+                        >Alex Ritt</a
+                    >
+                    &bull; X:
+                    <a href="https://x.com/RealAR0106" target="_blank"
+                        >@RealAR0106</a
+                    >
+                </p>
+            </div>
+        </div>
+
+        <!-- Interests section using an unordered list -->
+        <section>
+            <h2>Interests &amp; Hobbies</h2>
+            <ul>
+                <li>Building community-focused technology</li>
+                <li>Systems programming in Rust, C++, and Zig</li>
+                <li>Low level development</li>
+                <li>Human biology and medicine</li>
+                <li>Entrepreneurship and business strategy</li>
+            </ul>
+        </section>
+
+        <!-- Goals section using an ordered list -->
+        <section>
+            <h2>Academic &amp; Career Goals</h2>
+            <ol>
+                <li>Graduate with triple majors from UWGB</li>
+                <li>Contribute to open source projects in Rust and C++</li>
+                <li>
+                    Conduct research at the intersection of technology and
+                    patient care
+                </li>
+                <li>Work in healthcare informatics or health tech</li>
+                <li>Pursue a graduate degree or MBA</li>
+                <li>Bridge the gap between technology and local communities</li>
+            </ol>
+        </section>
+
+        <!-- Projects table sourced from GitHub (AR0106) and Reforce Labs -->
+        <section>
+            <h2>Projects</h2>
+            <table>
+                <tr>
+                    <th>Project</th>
+                    <th>Description</th>
+                    <th>Language</th>
+                    <th>Source</th>
+                </tr>
+                <tr>
+                    <td>ANNA</td>
+                    <td>Extension-based virtual assistant</td>
+                    <td>C#</td>
+                    <td>
+                        <a href="https://github.com/AR0106/ANNA" target="_blank"
+                            >GitHub</a
+                        >
+                    </td>
+                </tr>
+                <tr>
+                    <td>Benchside</td>
+                    <td>
+                        Digital platform connecting sports fans, players, and
+                        communities to local high school athletics
+                    </td>
+                    <td>Various</td>
+                    <td>
+                        <a
+                            href="https://reforcelabs.com/benchside"
+                            target="_blank"
+                            >Reforce Labs</a
+                        >
+                    </td>
+                </tr>
+                <tr>
+                    <td>GeneticComparisonTool</td>
+                    <td>A tool for comparing genetic data</td>
+                    <td>Rust</td>
+                    <td>
+                        <a
+                            href="https://github.com/AR0106/GeneticComparisonTool"
+                            target="_blank"
+                            >GitHub</a
+                        >
+                    </td>
+                </tr>
+                <tr>
+                    <td>Genigen</td>
+                    <td>An open source 2D game engine built in spare time</td>
+                    <td>C++</td>
+                    <td>
+                        <a
+                            href="https://github.com/AR0106/Genigen"
+                            target="_blank"
+                            >GitHub</a
+                        >
+                    </td>
+                </tr>
+                <tr>
+                    <td>mvn-tui</td>
+                    <td>Terminal user interface for Maven</td>
+                    <td>Go</td>
+                    <td>
+                        <a
+                            href="https://github.com/AR0106/mvn-tui"
+                            target="_blank"
+                            >GitHub</a
+                        >
+                    </td>
+                </tr>
+                <tr>
+                    <td>OTTest</td>
+                    <td>
+                        A Unity-based research game designed to aid in the
+                        treatment of post-stroke patients
+                    </td>
+                    <td>C#</td>
+                    <td>
+                        <a
+                            href="https://github.com/AR0106/OTResearchGame"
+                            target="_blank"
+                            >GitHub</a
+                        >
+                    </td>
+                </tr>
+                <tr>
+                    <td>scoreboard-detector</td>
+                    <td>Detects and reads scoreboards using computer vision</td>
+                    <td>Python</td>
+                    <td>
+                        <a
+                            href="https://github.com/AR0106/scoreboard-detector"
+                            target="_blank"
+                            >GitHub</a
+                        >
+                    </td>
+                </tr>
+            </table>
+        </section>
+    </body>
+</html>
