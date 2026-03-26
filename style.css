@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, sans-serif;
+    max-width: 56.25rem;
+    margin: 0 auto;
+    padding: 1.25rem;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+h1,
+h2 {
+    color: #2c5f2e;
+}
+
+a {
+    color: #1e5aa8;
+}
+
+a:hover {
+    color: #2c5f2e;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    background-color: #fff;
+    border-radius: 0.5rem;
+    overflow: hidden;
+    box-shadow: 0 0.125rem 0.375rem rgba(0, 0, 0, 0.1);
+}
+
+td,
+th {
+    padding: 0.75rem 1rem;
+    border: 0.0625rem solid #ddd;
+}
+
+th {
+    background-color: #2c5f2e;
+    color: white;
+    text-align: left;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.profile-section {
+    background-color: #fff;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 0.125rem 0.375rem rgba(0, 0, 0, 0.1);
+    margin-bottom: 1.5rem;
+}
+
+.profile-section::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.profile-section img {
+    float: right;
+    margin: 0 0 1rem 1.5rem;
+    border-radius: 50%;
+    border: 0.25rem solid #2c5f2e;
+}
+
+section {
+    background-color: #fff;
+    padding: 1.25rem 1.5rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 0.125rem 0.375rem rgba(0, 0, 0, 0.1);
+    margin-bottom: 1.5rem;
+}
+
+ul,
+ol {
+    line-height: 1.9;
+}
+
+footer {
+    text-align: center;
+    color: #777;
+    font-size: 0.9rem;
+    margin-top: 2.5rem;
+}
